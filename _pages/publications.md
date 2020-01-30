@@ -5,12 +5,17 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
+---
+layout: archive
+title: "Publications"
+permalink: /publications/
+author_profile: true
+---
 
-{% include base_path %}
+To find a full list of publications on which I am an author, 
+please consult this link: [InspireHEP]().
 
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+## Relevant Publications
+
+Here is a subset of publications which are more relevant than those listed on inspire:
+
