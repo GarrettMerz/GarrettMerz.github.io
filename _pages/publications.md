@@ -1,3 +1,14 @@
+---
+layout: archive
+title: "Publications"
+permalink: /publications/
+author_profile: true
+redirect_from:
+  - /publications
+  - /papers
+---
+
+
 To find a full list of publications on which I am an author, 
 please consult this link: [InspireHEP](http://inspirehep.net/search?ln=en&ln=en&p=Merz%2C+Garrett+William&of=hb&action_search=Search&sf=earliestdate&so=d&rm=&rg=25&sc=0).
 
