@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Garrett Merz"
+title                    : "Garrett Merz's Personal Webpage"
 title_separator          : "-"
 name                     : &name "Garrett Merz"
 description              : &description "High Energy Physics Ph.D Candidate at the University of Michigan"
@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
+  name             : "Garrett Merz"
   avatar           : "profile.jpeg"
   bio              : "High Energy Physics PhD Candidate at the University of Michigan working on the ATLAS experiment. Interested in computer vision, natural language processing, and using big data to sole big problems."
   location         : "Ann Arbor, MI"
