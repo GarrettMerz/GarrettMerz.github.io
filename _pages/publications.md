@@ -9,12 +9,12 @@ redirect_from:
 ---
 
 
-To find a full list of publications on which I am an author, 
+To find a full list of ATLAS publications on which I am an author, 
 please consult this link: [InspireHEP](http://inspirehep.net/search?ln=en&ln=en&p=Merz%2C+Garrett+William&of=hb&action_search=Search&sf=earliestdate&so=d&rm=&rg=25&sc=0).
 
 ## Relevant Publications
 
-Here is a subset of publications which are more relevant than those listed on inspire:
+Here is a subset of ATLAS publications which are more relevant than those listed on inspire:
 
 -Precision Measurements of Higgs Boson Couplings in the Diphoton Decay Channel with Run-2 of the ATLAS Detector. Merz, Garrett. PhD Thesis, University of Michigan Department of Physics; 2021. Advisor: Thomas Schwarz. [https://cds.cern.ch/record/2776271/files/CERN-THESIS-2021-093.pdf](https://cds.cern.ch/record/2776271/files/CERN-THESIS-2021-093.pdf)
 
