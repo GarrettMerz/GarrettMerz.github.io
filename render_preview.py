@@ -33,6 +33,7 @@ for a, b in [('{{ site.locale | slice: 0,2 }}', 'en'),
              ("{{ '/images/site-logo.png' | relative_url }}", 'images/site-logo.png'),
              ("{{ '/assets/js/event.js' | relative_url }}", 'assets/js/event.js'),
              ('{{ site.data.sections | jsonify }}', json.dumps(secs)),
+             ("?v={{ site.time | date: '%s' }}", ''),   # cache-buster: Jekyll stamps the build time; the local preview doesn't need it
              ('{{ content }}', content)]:
     lay = lay.replace(a, b)
 assert '{{' not in lay and '{%' not in lay, 'unresolved Liquid tag'
