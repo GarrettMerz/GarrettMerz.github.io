@@ -104,7 +104,7 @@
   }
   window.addEventListener('resize', resize); resize();
 
-  let yaw = 4.36, pitch = 0.00, yawT = yaw, pitchT = pitch;   // level side view: beam line horizontal, objects clear of the HUD text (chosen by scratchpad/view_search.py)
+  let yaw = 1.57, pitch = -0.40, yawT = yaw, pitchT = pitch;   // side view: beam line horizontal, muon to the upper right, jets upper left, photons below
   let hovered = null, dragging = false, dragStart = null, moved = false;
   let anim = null;   // { id, dir: +1 collapse / -1 expand, t0, dur, col, onDone }
   let lastProj = null;   // projected point positions from the last frame, for hit testing
