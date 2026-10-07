@@ -16,8 +16,8 @@
               kin: [['pT', '35.4 GeV'], ['η', '−1.51'], ['φ', '+0.31'], ['MV2c10', '0.979'], ['b-tag', '60% WP']] },
     mu:     { key: 'μ',  kind: 'muon',   label: 'muon',          pt:  35.7, eta:  0.51, phi:  3.05, charge: -1,   color: '#d9b4ec',
               kin: [['pT', '35.7 GeV'], ['η', '+0.51'], ['φ', '+3.05'], ['charge', '−1'], ['ID', 'tight']] },
-    met:    { key: 'Eᵀ', kind: 'met',    label: 'missing transverse energy', pt: 111.0, eta: 0.00, phi: -2.47, color: '#f27a55',
-              kin: [['Eᵀ', '111.0 GeV'], ['φ', '−2.47'], ['jets', '4 (2 b-tag)']] },
+    met:    { key: 'E̸ᵀ', kind: 'met',    label: 'missing transverse energy', pt: 111.0, eta: 0.00, phi: -2.47, color: '#f27a55',
+              kin: [['E̸ᵀ', '111.0 GeV'], ['φ', '−2.47'], ['jets', '4 (2 b-tag)']] },
   };
   // Sections come from _data/sections.yml (Jekyll writes it into #sections-data). The fallback keeps the page working without it.
   let SECTIONS = [{"id": "about", "title": "About", "object": "mu"}, {"id": "research", "title": "Research", "object": "gamma1"}, {"id": "service", "title": "Teaching & Service", "object": "gamma2"}, {"id": "blog", "title": "Blog", "object": "b1"}, {"id": "ephemera", "title": "Ephemera", "object": "b2"}, {"id": "contact", "title": "CV & Contact", "object": "met"}];

@@ -78,7 +78,7 @@
     .hud .id .eyebrow { white-space: normal; }
     .objects { display: none; }
     .objects-mobile { display: block; }
-    .objects-mobile .objects { display: flex; min-width: 0; }
+    .objects-mobile .objects { display: flex; min-width: 0; width: max-content; max-width: 100%; margin: 0 auto; }   /* centred block; key/name columns stay aligned */
     .objects-mobile .objects button { color: #dcd7ce; }
     .objects-mobile .objects button:hover { background: #17171a; border-color: #34343a; color: var(--viewport-ink); }
     .objects-mobile .objects .key { color: var(--viewport-mute); }
