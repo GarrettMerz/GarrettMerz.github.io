@@ -70,7 +70,11 @@
   @media (max-width: 760px) {
     .viewport { height: 68vh; height: 68dvh; min-height: 380px; }
     .hud { grid-template-columns: 1fr; padding: calc(16px + env(safe-area-inset-top, 0px)) 16px 16px; }
-    .hud .id p { display: none; }
+    .hud .id p { font-size: 16px; margin-top: 8px; }
+    /* top bar: brand on its own row, the six section links in a tidy two-column grid beneath it */
+    .topbar { gap: 8px 16px; }
+    .topbar nav { flex-basis: 100%; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px 16px; }
+    .topbar nav a { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
     .hud .id .eyebrow { white-space: normal; }
     .objects { display: none; }
     .objects-mobile { display: block; }
