@@ -1,0 +1,29 @@
+# Sections of the site, in menu order. This is the ONLY place to rename, reorder, add or remove a section.
+#
+#   id:      the URL fragment (/#about) and the value of data-obj="…" on the matching <section> in index.html
+#   title:   what appears in the object list, the top bar, the hover popup, and the page heading
+#   object:  which reconstructed object of the event opens the section. One of:
+#              gamma1  photon γ₁            gamma2  photon γ₂ (converted)
+#              b1      b-tagged jet (131 GeV) b2      b-tagged jet (35 GeV)
+#              mu      muon                  met     missing transverse energy
+#            Each object can be used at most once. An object with no section is still drawn, but not clickable.
+#
+# The physics of each object (kinematics, colour, how it is drawn) lives in assets/js/event.js and never needs editing.
+- id: about
+  title: About
+  object: mu
+- id: research
+  title: Research
+  object: gamma1
+- id: service
+  title: Teaching & Service
+  object: gamma2
+- id: blog
+  title: Blog
+  object: b1
+- id: ephemera
+  title: Ephemera
+  object: b2
+- id: contact
+  title: CV & Contact
+  object: met
