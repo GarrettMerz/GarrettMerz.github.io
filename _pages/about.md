@@ -1,5 +1,6 @@
 ---
 permalink: /
+published: false   # superseded by index.html (event-display home); remove this line to restore
 title: "Home"
 author_profile: true
 redirect_from: 

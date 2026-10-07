@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Garrett Merz's Personal Webpage"
 title_separator          : "-"
 name                     : &name "Garrett Merz"
-description              : &description "High Energy Physics Ph.D Candidate at the University of Michigan"
+description              : &description "Scientist I, UW–Madison Physics & Data Science Institute"
 url                      : https://GarrettMerz.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "GarrettMerz.github.io"
@@ -147,6 +147,9 @@ exclude:
   - package.json
   - tmp
   - vendor
+  - render_preview.py
+  - preview.html
+  - files/extract_event.py
 keep_files:
   - .git
   - .svn
@@ -272,6 +275,7 @@ whitelist:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
+  - jekyll-redirect-from
   - jemoji
 
 
