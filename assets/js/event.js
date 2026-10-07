@@ -104,7 +104,7 @@
   }
   window.addEventListener('resize', resize); resize();
 
-  let yaw = 1.57, pitch = -0.40, yawT = yaw, pitchT = pitch;   // side view: beam line horizontal, muon to the upper right, jets upper left, photons below
+  let yaw = 1.57, pitch = -0.25, yawT = yaw, pitchT = pitch;   // side view: beam horizontal, muon upper right, jets upper left, photons below at equal angles to the beam
   let hovered = null, dragging = false, dragStart = null, moved = false;
   let anim = null;   // { id, dir: +1 collapse / -1 expand, t0, dur, col, onDone }
   let lastProj = null;   // projected point positions from the last frame, for hit testing
